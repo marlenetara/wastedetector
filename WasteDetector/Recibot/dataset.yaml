@@ -1,6 +1,6 @@
-train: C:\Users\YourUserName\Desktop\WasteDetector\dataset\train  # Path to the training pictures
-val: C:\Users\YourUserName\Desktop\WasteDetector\dataset\val      # Path to the validation pictures
+train: C:\Users\Marlene Tara\WasteDetector\WasteDetector\dataset\train  # Path to the training pictures
+val: C:\Users\Marlene Tara\WasteDetector\WasteDetector\dataset\val      # Path to the validation pictures
 
 nc: 5                   # Number of classes
-names: ['metal', 'organico', 'papel_y_carton', 'plastico', 'vidrio']  # Name of the classes 
+names: ['Hazardous', 'Non-Recyclable', 'Organic', 'Recyclable']  # Name of the classes 
 
