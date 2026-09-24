@@ -1,0 +1,27 @@
+# ============================================================
+# YOLOv8 Dataset Configuration - German Waste Separation System
+# (Mülltrennung Deutschland)
+# ============================================================
+
+# Dataset root directory (relative or absolute)
+path: C:\Users\Marlene Tara\WasteDetector\WasteDetector\datasets\waste_detection
+
+# Train and Validation image paths (relative to 'path')
+train: images/train
+val: images/val
+test: images/test
+
+# ------------------------------------------------------------
+# STRICT GERMAN WASTE CLASSES (Core Separation Streams)
+# ------------------------------------------------------------
+names:
+  0: plastic_bottle       # -> Gelber Sack (oder Pfandautomat bei DPG-Logo)
+  1: can_metal            # -> Gelber Sack (Getränke-/Konservendosen)
+  2: plastic_packaging    # -> Gelber Sack (Folien, Tüten, Becher)
+  3: tetra_pak            # -> Gelber Sack (Milch-/Getränkekartons)
+  4: organic_waste        # -> Biomüll (Essensreste, Obst-, Gemüseschalen)
+  5: paper_cardboard      # -> Altpapier / Blaue Tonne (Kartons, Zeitungen)
+  6: glass_container      # -> Altglas (Flaschen, Gläser nach Farben)
+  7: sanitary_waste       # -> Restmüll (Windeln, Feuchttücher, Binden)
+  8: ceramic_rubbish      # -> Restmüll (Porzellan, Keramik, Trinkgläser)
+  9: battery_electronic   # -> Sondermüll / Wertstoffhof (Batteriekasten)
